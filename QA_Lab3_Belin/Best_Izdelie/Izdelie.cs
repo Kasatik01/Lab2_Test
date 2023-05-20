@@ -5,6 +5,7 @@
     /// Основной класс Izdelie содержит информацию об изделии и 
     /// использует вспомогательный класс Element.
     /// </summary>
+    /// \callergraph
     public class Izdelie
     {
         private Element e1 = new Element(); // 3 элемента

@@ -26,6 +26,7 @@
         public void Read()
         {
             string s = "";
+            Console.Write("Введите вес и цену: "); ;
             s = Console.ReadLine();
             string[] s1 = s.Split(new char[] { ' ', '\t' },
             StringSplitOptions.RemoveEmptyEntries);
@@ -53,7 +54,7 @@
         /// </summary>
         public void Display()
         {
-            Console.WriteLine("Вес элемента:" + ves.ToString()); ;
+            Console.WriteLine("Вес элемента:" + ves.ToString());
             Console.WriteLine("Цена грамма элемента:" + tsena.ToString());
         }
     }
