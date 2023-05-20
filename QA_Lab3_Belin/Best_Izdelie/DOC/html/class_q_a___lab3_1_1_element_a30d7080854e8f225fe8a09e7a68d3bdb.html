@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Best_Izdelie: QA_Lab3.Element.Element_Cost</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Best_Izdelie<span id="projectnumber">&#160;1.2.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_q_a___lab3.html">QA_Lab3</a></li><li class="navelem"><a class="el" href="class_q_a___lab3_1_1_element.html">Element</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="navtab" href="class_q_a___lab3_1_1_element_ae9c1b41041409900eb70a8083f667c1c.html#ae9c1b41041409900eb70a8083f667c1c">Display</a></td></tr>
+          <tr><td class="navtabHL"><a class="navtab" href="class_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb.html#a30d7080854e8f225fe8a09e7a68d3bdb">Element_Cost</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="class_q_a___lab3_1_1_element_a28d6502c289379ef5411d7a788b1cf0f.html#a28d6502c289379ef5411d7a788b1cf0f">Init</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="class_q_a___lab3_1_1_element_a14bcfe57ee5960038666a3e40b452d93.html#a14bcfe57ee5960038666a3e40b452d93">Read</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a30d7080854e8f225fe8a09e7a68d3bdb" name="a30d7080854e8f225fe8a09e7a68d3bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30d7080854e8f225fe8a09e7a68d3bdb">&#9670;&#160;</a></span>Element_Cost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QA_Lab3.Element.Element_Cost </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Метод вычисления стоимости элемента </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Метод использует поля класса Element, возвращая стоимость элемента по формуле: высчитывается по формуле: $$Element_Cost = ves * tsena$$ </dd></dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb_icgraph.png" border="0" usemap="#aclass_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb_icgraph" alt=""/></div>
+<map name="aclass_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb_icgraph" id="aclass_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb_icgraph">
+<area shape="rect" title="Метод вычисления стоимости элемента" alt="" coords="245,31,458,57"/>
+<area shape="rect" href="class_q_a___lab3_1_1_izdelie_ad3f4c9fb85b251f5a3d5b65c491c9109.html#ad3f4c9fb85b251f5a3d5b65c491c9109" title="Метод нахождения самого дорогого элемента в изделии." alt="" coords="11,5,191,32"/>
+<area shape="poly" title=" " alt="" coords="230,34,191,30,191,25,230,29"/>
+<area shape="rect" href="class_q_a___lab3_1_1_izdelie_a67a597d418ccb937dd8d6e522bd11d65.html#a67a597d418ccb937dd8d6e522bd11d65" title="Метод посчёта стоимости изделия." alt="" coords="5,56,197,83"/>
+<area shape="poly" title=" " alt="" coords="230,59,197,62,197,57,230,54"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

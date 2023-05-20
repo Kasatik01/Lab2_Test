@@ -1,9 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: "eipq",
-  1: "p",
+  0: "deinpqr",
+  1: "eip",
   2: "q",
-  3: "eip"
+  3: "eip",
+  4: "deinr"
 };
 
 var indexSectionNames =
@@ -11,7 +12,8 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "namespaces",
-  3: "files"
+  3: "files",
+  4: "functions"
 };
 
 var indexSectionLabels =
@@ -19,6 +21,7 @@ var indexSectionLabels =
   0: "Указатель",
   1: "Классы",
   2: "Пространства имен",
-  3: "Файлы"
+  3: "Файлы",
+  4: "Функции"
 };
 

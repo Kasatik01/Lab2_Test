@@ -1,13 +1,11 @@
-﻿using System;
-
-namespace QA_Lab3
+﻿namespace QA_Lab3
 {
     /// \author Belin N.
     /// <summary>
     /// Основной класс Izdelie содержит информацию об изделии и 
     /// использует вспомогательный класс Element.
     /// </summary>
-    internal class Izdelie
+    public class Izdelie
     {
         private Element e1 = new Element(); // 3 элемента
         private Element e2 = new Element();

@@ -1,11 +1,9 @@
-﻿using System;
-
-namespace QA_Lab3
+﻿namespace QA_Lab3
 {
     /// <summary>
     /// Вспомогательный класс Element содержит информацию об элементе изделия.
     /// </summary>
-    internal class Element
+    public class Element
     {
         private int ves; // вес в граммах
         private double tsena; // цена за грамм

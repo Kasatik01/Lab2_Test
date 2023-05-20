@@ -1,0 +1,107 @@
+\doxysection{Класс QA\+\_\+\+Lab3.\+Element}
+\hypertarget{class_q_a___lab3_1_1_element}{}\label{class_q_a___lab3_1_1_element}\index{QA\_Lab3.Element@{QA\_Lab3.Element}}
+
+
+Вспомогательный класс Element содержит информацию об элементе изделия.  
+
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_q_a___lab3_1_1_element_a28d6502c289379ef5411d7a788b1cf0f_a28d6502c289379ef5411d7a788b1cf0f}{Init}} (int v, double t)
+\begin{DoxyCompactList}\small\item\em Метод инициализации данных элемента \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_q_a___lab3_1_1_element_a14bcfe57ee5960038666a3e40b452d93_a14bcfe57ee5960038666a3e40b452d93}{Read}} ()
+\begin{DoxyCompactList}\small\item\em Метод чтения данных элемента с консоли \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb}{Element\+\_\+\+Cost}} ()
+\begin{DoxyCompactList}\small\item\em Метод вычисления стоимости элемента \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_q_a___lab3_1_1_element_ae9c1b41041409900eb70a8083f667c1c_ae9c1b41041409900eb70a8083f667c1c}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Метод отображения данных об элементе в консоли. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Вспомогательный класс Element содержит информацию об элементе изделия. 
+
+\doxysubsection{Методы}
+\Hypertarget{class_q_a___lab3_1_1_element_ae9c1b41041409900eb70a8083f667c1c_ae9c1b41041409900eb70a8083f667c1c}\label{class_q_a___lab3_1_1_element_ae9c1b41041409900eb70a8083f667c1c_ae9c1b41041409900eb70a8083f667c1c} 
+\index{QA\_Lab3.Element@{QA\_Lab3.Element}!Display@{Display}}
+\index{Display@{Display}!QA\_Lab3.Element@{QA\_Lab3.Element}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3.\+Element.\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод отображения данных об элементе в консоли. 
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3_1_1_element_ae9c1b41041409900eb70a8083f667c1c_ae9c1b41041409900eb70a8083f667c1c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb}\label{class_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb} 
+\index{QA\_Lab3.Element@{QA\_Lab3.Element}!Element\_Cost@{Element\_Cost}}
+\index{Element\_Cost@{Element\_Cost}!QA\_Lab3.Element@{QA\_Lab3.Element}}
+\doxysubsubsection{\texorpdfstring{Element\_Cost()}{Element\_Cost()}}
+{\footnotesize\ttfamily double QA\+\_\+\+Lab3.\+Element.\+Element\+\_\+\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод вычисления стоимости элемента 
+
+\begin{DoxyReturn}{Возвращает}
+Метод использует поля класса Element, возвращая стоимость элемента по формуле\+: высчитывается по формуле\+: \$\$\+Element\+\_\+\+Cost = ves \texorpdfstring{$\ast$}{*} tsena\$\$ 
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3_1_1_element_a30d7080854e8f225fe8a09e7a68d3bdb_a30d7080854e8f225fe8a09e7a68d3bdb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_a___lab3_1_1_element_a28d6502c289379ef5411d7a788b1cf0f_a28d6502c289379ef5411d7a788b1cf0f}\label{class_q_a___lab3_1_1_element_a28d6502c289379ef5411d7a788b1cf0f_a28d6502c289379ef5411d7a788b1cf0f} 
+\index{QA\_Lab3.Element@{QA\_Lab3.Element}!Init@{Init}}
+\index{Init@{Init}!QA\_Lab3.Element@{QA\_Lab3.Element}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3.\+Element.\+Init (\begin{DoxyParamCaption}\item[{int}]{v,  }\item[{double}]{t }\end{DoxyParamCaption})}
+
+
+
+Метод инициализации данных элемента 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em v} & Вес элемента в граммах\\
+\hline
+{\em t} & Цена за грамм элемента\\
+\hline
+\end{DoxyParams}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_q_a___lab3_1_1_element_a28d6502c289379ef5411d7a788b1cf0f_a28d6502c289379ef5411d7a788b1cf0f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_a___lab3_1_1_element_a14bcfe57ee5960038666a3e40b452d93_a14bcfe57ee5960038666a3e40b452d93}\label{class_q_a___lab3_1_1_element_a14bcfe57ee5960038666a3e40b452d93_a14bcfe57ee5960038666a3e40b452d93} 
+\index{QA\_Lab3.Element@{QA\_Lab3.Element}!Read@{Read}}
+\index{Read@{Read}!QA\_Lab3.Element@{QA\_Lab3.Element}}
+\doxysubsubsection{\texorpdfstring{Read()}{Read()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3.\+Element.\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод чтения данных элемента с консоли 
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3_1_1_element_a14bcfe57ee5960038666a3e40b452d93_a14bcfe57ee5960038666a3e40b452d93_icgraph}
+\end{center}
+\end{figure}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/study/тестирование/\+Lab2\+\_\+\+Test/\+QA\+\_\+\+Lab3\+\_\+\+Belin/\+Best\+\_\+\+Izdelie/\mbox{\hyperlink{_element_8cs}{Element.\+cs}}\end{DoxyCompactItemize}
