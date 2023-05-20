@@ -48,7 +48,7 @@ PROJECT_NAME           = Best_Izdelie
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 1.2
+PROJECT_NUMBER         = 1.2.1
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -1093,7 +1093,8 @@ EXAMPLE_RECURSIVE      = NO
 # that contain images that are to be included in the documentation (see the
 # \image command).
 
-IMAGE_PATH             = E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\QA_Lab3_Project\QA_Lab3_Project\pic
+IMAGE_PATH             = E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\QA_Lab3_Project\QA_Lab3_Project\pic \
+                         ../pic/chair.jpg
 
 # The INPUT_FILTER tag can be used to specify a program that doxygen should
 # invoke to filter for each input file. Doxygen will invoke the filter program
