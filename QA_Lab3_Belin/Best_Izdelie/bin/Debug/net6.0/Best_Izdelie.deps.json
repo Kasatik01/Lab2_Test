@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Best_Izdelie/1.0.0": {
+        "runtime": {
+          "Best_Izdelie.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Best_Izdelie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

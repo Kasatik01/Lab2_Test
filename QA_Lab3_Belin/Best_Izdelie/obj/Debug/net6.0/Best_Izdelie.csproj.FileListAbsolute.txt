@@ -1,0 +1,15 @@
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\bin\Debug\net6.0\Best_Izdelie.exe
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\bin\Debug\net6.0\Best_Izdelie.deps.json
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\bin\Debug\net6.0\Best_Izdelie.runtimeconfig.json
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\bin\Debug\net6.0\Best_Izdelie.dll
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\bin\Debug\net6.0\Best_Izdelie.pdb
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.csproj.AssemblyReference.cache
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.GeneratedMSBuildEditorConfig.editorconfig
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.AssemblyInfoInputs.cache
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.AssemblyInfo.cs
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.csproj.CoreCompileInputs.cache
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.dll
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\refint\Best_Izdelie.dll
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.pdb
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\Best_Izdelie.genruntimeconfig.cache
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\Best_Izdelie\obj\Debug\net6.0\ref\Best_Izdelie.dll
