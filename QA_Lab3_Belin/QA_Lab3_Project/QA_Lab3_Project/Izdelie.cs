@@ -1,7 +1,6 @@
-﻿using STP1;
-using System;
+﻿using System;
 
-namespace STP1
+namespace QA_Lab3
 {
     internal class Izdelie
     {

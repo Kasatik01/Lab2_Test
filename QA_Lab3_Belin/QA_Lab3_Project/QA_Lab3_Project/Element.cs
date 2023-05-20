@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace STP1
+namespace QA_Lab3
 {
     internal class Element
     {

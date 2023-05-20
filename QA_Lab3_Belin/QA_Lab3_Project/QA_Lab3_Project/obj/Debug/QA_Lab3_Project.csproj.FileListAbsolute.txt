@@ -1,0 +1,6 @@
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\STP1\STP1\bin\Debug\QA_Lab3_Project.exe
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\STP1\STP1\bin\Debug\QA_Lab3_Project.pdb
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\STP1\STP1\obj\Debug\QA_Lab3_Project.csproj.AssemblyReference.cache
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\STP1\STP1\obj\Debug\QA_Lab3_Project.csproj.CoreCompileInputs.cache
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\STP1\STP1\obj\Debug\QA_Lab3_Project.exe
+E:\study\тестирование\Lab2_Test\QA_Lab3_Belin\STP1\STP1\obj\Debug\QA_Lab3_Project.pdb
